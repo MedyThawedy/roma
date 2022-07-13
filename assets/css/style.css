@@ -41,7 +41,7 @@ body>main>article.firstArticle>p {
 article.firstArticle {
     background-image: url(../img/cleo-topper.jpg);
     /* Set a specific height */
-    min-height: 100vh;
+    min-height: 53vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -57,9 +57,10 @@ article.secondArticle>div {
 article.secondArticle>div>h2.h2Scroll {
     font-family: 'tangerine';
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 3rem;
     color: #e7bc0e;
-    margin-left: 2%
+    margin-left: 5%;
+    word-spacing: -5px;
 }
 
 .h2ToRotate {
@@ -68,14 +69,14 @@ article.secondArticle>div>h2.h2Scroll {
     margin-left: 4vh;
     font-family: 'tangerine';
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 3.6rem;
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
 article.secondArticle {
     background-image: url(../img/cleo-topper.jpg);
     /* Set a specific height */
-    min-height: 100vh;
+    min-height: 67vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -105,7 +106,7 @@ article.thirdArticle>p>span {
 article.thirdArticle {
     background-image: url(../img/cleo-topper.jpg);
     /* Set a specific height */
-    min-height: 100vh;
+    min-height: 94vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -129,7 +130,7 @@ body>main>article.fourthArticle>h2 {
     font-size: 7rem;
     font-weight: 600;
     color: #e7bc0e;
-    margin-top: 4vh;
+    margin-top: 7vh;
 
 }
 
@@ -156,7 +157,7 @@ body>main>article.fourthArticle>p>span {
 article.fourthArticle {
     background-image: url(../img/cleo-topper.jpg);
     /* Set a specific height */
-    min-height: 100vh;
+    min-height: 90vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -173,7 +174,7 @@ body>main>article.fourthArticle>div>img {
 article.fifthArticle {
     background-image: url(../img/cleo-topper.jpg);
     /* Set a specific height */
-    min-height: 100vh;
+    min-height: 90vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -191,7 +192,7 @@ body>main>article.fifthArticle>p {
     font-size: 3.3rem;
     font-weight: 600;
     color: #cb91b6;
-    margin-top: 3vh;
+    margin-top: 7vh;
 }
 
 body>main>article.fifthArticle>p>span {
@@ -218,7 +219,7 @@ body>main>article.fifthArticle>h2 {
 article.sixthArticle {
     background-image: url(../img/cleo-topper.jpg);
     /* Set a specific height */
-    min-height: 100vh;
+    min-height: 90vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -255,7 +256,7 @@ body>main>article.sixthArticle>h2 {
     font-size: 7rem;
     font-weight: 600;
     color: #6bc1a3;
-    margin-top: 4vh;
+    margin-top: 7vh;
 
 }
 
