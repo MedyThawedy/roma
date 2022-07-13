@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* First page */
+body>main>article.firstArticle>div>h1 {
+    border-bottom: 3px solid yellow;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-right: 3%;
+    margin-top: 3vh;
+    color:#fff;
+}
+
+/* Div in the first page */
+body>main>article.firstArticle>div {
+    display: flex;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+/* heart image */
+body>main>article.firstArticle>div>img {
+    width: 20px;
+}
+
+body>main>article.firstArticle>p {
+    font-family: santio;
+    font-size: 4rem;
+    font-weight: 600;
+    width: 27%;
+    margin-left: 5%;
+    margin-top: 16vh;
+    color:#fff;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+article.firstArticle {
+    background-image: url(../img/cleo-topper.jpg);
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article.secondArticle > div {
+    display:flex;
+    justify-content: flex-start;
+}
+
+article.secondArticle > div > h2{
+    font-family: 'tangerine';
+    font-weight: bold;
+    font-size: 5rem;
+    color:#e7bc0e;
+    margin-left:2%
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+article.secondArticle {
+    background-image: url(../img/cleo-topper.jpg);
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article.thirdArticle > p {
+    color: #6bc1a3;
+    font-family: santio;
+    font-size: 2.2rem;
+    font-weight: 900;
+    width: 68%;
+    line-height: 7vh;
+}
+
+article.thirdArticle > p > span {
+    color: #fff;
+    font-family: santio;
+    font-size: 2.2rem;
+    font-weight: 900;
+    width: 68%;
+    line-height: 7vh;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+article.thirdArticle {
+    background-image: url(../img/cleo-topper.jpg);
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thirdArticle {
+    display:flex;
+    justify-content: center;
+}
+
+/* Article four */
+body > main > article.fourthArticle > img {
+    height: 18vh;
+}
+
+
+body > main > article.fourthArticle > h2 {
+    font-family: santio;
+    font-size: 7rem;
+    font-weight: 600;
+    color: #e7bc0e;
+    margin-top: 4vh;
+    
+}
+
+body > main > article.fourthArticle > p {
+font-family: santio;
+font-size: 3.3rem;
+font-weight: 600;
+color: #e7bc0e;
+margin-top:3vh;
+}
+
+body > main > article.fourthArticle > p > span {
+    font-family: santio;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(67, 66, 66, 0.906);
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+article.fourthArticle {
+    background-image: url(../img/cleo-topper.jpg);
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:10%;
+}
+
+body > main > article.fourthArticle > div > img {
+    width: 17%;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+article.fifthArticle {
+    background-image: url(../img/cleo-topper.jpg);
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:10%;
+}
+
+body > main > article.fifthArticle > div > img {
+    width: 17%;
+}
+
+
+body > main > article.fifthArticle > p {
+    font-family: santio;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: #cb91b6;
+    margin-top:3vh;
+}    
+
+body > main > article.fifthArticle > p > span {
+    font-family: santio;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(67, 66, 66, 0.906);
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+body > main > article.fifthArticle > h2 {
+    font-family: santio;
+    font-size: 7rem;
+    font-weight: 600;
+    color: #cb91b6;
+    margin-top: 4vh;
+    
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+article.sixthArticle {
+    background-image: url(../img/cleo-topper.jpg);
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:10%;
+}
+
+body > main > article.sixthArticle > div > img {
+    width: 17%;
+}
+
+body > main > article.sixthArticle > p {
+    font-family: santio;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: #6bc1a3;
+    margin-top:3vh;
+}    
+
+body > main > article.sixthArticle > p.pHealthInsurance > span {
+    font-family: santio;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(67, 66, 66, 0.906);
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+body > main > article.sixthArticle > h2 {
+    font-family: santio;
+    font-size: 7rem;
+    font-weight: 600;
+    color: #6bc1a3;
+    margin-top: 4vh;
+    
+}
+
+body > main > article.sixthArticle > p.domesticWorkers {
+    width: 66%;
+    color: #7eb8e1;
+    font-size: 2.2rem;
+    margin-top: 49vh;
+    margin-left: 21%;
+    word-spacing: 3px;
+    line-height: 7vh;
+}
+
+body > main > article.sixthArticle > p.domesticWorkers > span { 
+    font-family: santio;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(67, 66, 66, 0.906);
+   
+}
+
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+article.seventhArticle {
+    background-image:url(../img/kid.png), url(../img/see.png) ;
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:10%;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+article.eighthArticle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#000;
+    /* Set a specific height */
+    min-height: 130vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:10%;
+}
+
+body > main > article.eighthArticle > div >p {
+    color: #fff;
+    font-family: santio;
+    font-size: 5.2rem;
+    font-weight: 600;
+    width: 66%;
+}
+
+body > main > article.eighthArticle > div{
+display: flex;
+flex-direction: column;
+}
+
+body > footer > p{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 8vh;
+    padding-bottom: 1vh;
+}
+
+.donationAnchor{
+    color: #fff;
+    width: 115px;
+    height: 34px;
+    border: 2px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8vh;
+    padding-top: 0.8vh;
+    
+}
+
+
+
+

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/OTP/Santio\ regular.otf");
+}
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/OTP/Santio\ Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/OTP/Santio\ Black.otf");
+    font-style: black;
+}
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/OTP/Santio\ Boldline.otf");
+    font-style: "Boldline";
+}
+
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/OTP/Santio\ Inline.otf");
+    font-style: Inline;
+}
+
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/OTP/Santio\ light.otf");
+    font-weight: "light";
+}
+
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/TTF/Santio\ regular.ttf");
+}
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/TTF/Santio\ Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/TTF/Santio\ Black.ttf");
+    font-style: black;
+}
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/TTF/Santio\ Boldline.ttf");
+    font-style: "Boldline";
+}
+
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/TTF/Santio\ Inline.ttf");
+    font-style: Inline;
+}
+
+@font-face {
+    font-family: "santio";
+    src: url("../fonts/SANTIO/TTF/Santio\ light.ttf");
+    font-weight: "light";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');*/
+
+
+@font-face {
+    font-family: "tangerine";
+    src: url("../fonts/tangerine/Tangerine_Bold.ttf");
+    font-weight: "bold";
+}
+
+@font-face {
+    font-family: "tangerine";
+    src: url("../fonts/tangerine/Tangerine_Bold.ttf");    
+}
