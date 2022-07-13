@@ -11,7 +11,7 @@ body>main>article.firstArticle>div>h1 {
     font-weight: 700;
     margin-right: 3%;
     margin-top: 3vh;
-    color:#fff;
+    color: #fff;
 }
 
 /* Div in the first page */
@@ -34,7 +34,7 @@ body>main>article.firstArticle>p {
     width: 27%;
     margin-left: 5%;
     margin-top: 16vh;
-    color:#fff;
+    color: #fff;
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
@@ -49,17 +49,26 @@ article.firstArticle {
     background-size: cover;
 }
 
-article.secondArticle > div {
-    display:flex;
+article.secondArticle>div {
+    display: flex;
     justify-content: flex-start;
 }
 
-article.secondArticle > div > h2{
+article.secondArticle>div>h2.h2Scroll {
     font-family: 'tangerine';
     font-weight: bold;
     font-size: 5rem;
-    color:#e7bc0e;
-    margin-left:2%
+    color: #e7bc0e;
+    margin-left: 2%
+}
+
+.h2ToRotate {
+    transform: rotate(90deg);
+    color: #e7bc0e;
+    margin-left: 4vh;
+    font-family: 'tangerine';
+    font-weight: bold;
+    font-size: 6rem;
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
@@ -74,7 +83,7 @@ article.secondArticle {
     background-size: cover;
 }
 
-article.thirdArticle > p {
+article.thirdArticle>p {
     color: #6bc1a3;
     font-family: santio;
     font-size: 2.2rem;
@@ -83,7 +92,7 @@ article.thirdArticle > p {
     line-height: 7vh;
 }
 
-article.thirdArticle > p > span {
+article.thirdArticle>p>span {
     color: #fff;
     font-family: santio;
     font-size: 2.2rem;
@@ -102,43 +111,43 @@ article.thirdArticle {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -1vh;
 }
 
 .thirdArticle {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
 /* Article four */
-body > main > article.fourthArticle > img {
+body>main>article.fourthArticle>img {
     height: 18vh;
 }
 
-
-body > main > article.fourthArticle > h2 {
+body>main>article.fourthArticle>h2 {
     font-family: santio;
     font-size: 7rem;
     font-weight: 600;
     color: #e7bc0e;
     margin-top: 4vh;
-    
+
 }
 
-body > main > article.fourthArticle > p {
-font-family: santio;
-font-size: 3.3rem;
-font-weight: 600;
-color: #e7bc0e;
-margin-top:3vh;
+body>main>article.fourthArticle>p {
+    font-family: santio;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: #e7bc0e;
+    margin-top: 3vh;
 }
 
-body > main > article.fourthArticle > p > span {
+body>main>article.fourthArticle>p>span {
     font-family: santio;
     font-size: 3.3rem;
     font-weight: 600;
     color: #fff;
     background-color: rgba(67, 66, 66, 0.906);
-    padding-bottom: 1%;
+    padding-bottom: 0.2vh;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -153,10 +162,10 @@ article.fourthArticle {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left:10%;
+    padding-left: 10%;
 }
 
-body > main > article.fourthArticle > div > img {
+body>main>article.fourthArticle>div>img {
     width: 17%;
 }
 
@@ -170,40 +179,39 @@ article.fifthArticle {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left:10%;
+    padding-left: 10%;
 }
 
-body > main > article.fifthArticle > div > img {
+body>main>article.fifthArticle>div>img {
     width: 17%;
 }
 
-
-body > main > article.fifthArticle > p {
+body>main>article.fifthArticle>p {
     font-family: santio;
     font-size: 3.3rem;
     font-weight: 600;
     color: #cb91b6;
-    margin-top:3vh;
-}    
+    margin-top: 3vh;
+}
 
-body > main > article.fifthArticle > p > span {
+body>main>article.fifthArticle>p>span {
     font-family: santio;
     font-size: 3.3rem;
     font-weight: 600;
     color: #fff;
     background-color: rgba(67, 66, 66, 0.906);
-    padding-bottom: 1%;
+    padding-bottom: 0.2vh;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-body > main > article.fifthArticle > h2 {
+body>main>article.fifthArticle>h2 {
     font-family: santio;
     font-size: 7rem;
     font-weight: 600;
     color: #cb91b6;
     margin-top: 4vh;
-    
+
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
@@ -216,42 +224,42 @@ article.sixthArticle {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left:10%;
+    padding-left: 10%;
 }
 
-body > main > article.sixthArticle > div > img {
+body>main>article.sixthArticle>div>img {
     width: 17%;
 }
 
-body > main > article.sixthArticle > p {
+body>main>article.sixthArticle>p {
     font-family: santio;
     font-size: 3.3rem;
     font-weight: 600;
     color: #6bc1a3;
-    margin-top:3vh;
-}    
+    margin-top: 3vh;
+}
 
-body > main > article.sixthArticle > p.pHealthInsurance > span {
+body>main>article.sixthArticle>p.pHealthInsurance>span {
     font-family: santio;
     font-size: 3.3rem;
     font-weight: 600;
     color: #fff;
     background-color: rgba(67, 66, 66, 0.906);
-    padding-bottom: 1%;
+    padding-bottom: 0.2vh;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-body > main > article.sixthArticle > h2 {
+body>main>article.sixthArticle>h2 {
     font-family: santio;
     font-size: 7rem;
     font-weight: 600;
     color: #6bc1a3;
     margin-top: 4vh;
-    
+
 }
 
-body > main > article.sixthArticle > p.domesticWorkers {
+body>main>article.sixthArticle>p.domesticWorkers {
     width: 66%;
     color: #7eb8e1;
     font-size: 2.2rem;
@@ -261,27 +269,26 @@ body > main > article.sixthArticle > p.domesticWorkers {
     line-height: 7vh;
 }
 
-body > main > article.sixthArticle > p.domesticWorkers > span { 
+body>main>article.sixthArticle>p.domesticWorkers>span {
     font-family: santio;
     font-size: 2.2rem;
     font-weight: 600;
     color: #fff;
     background-color: rgba(67, 66, 66, 0.906);
-   
-}
 
+}
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
 article.seventhArticle {
-    background-image:url(../img/kid.png), url(../img/see.png) ;
+    background-image: url(../img/kid.png), url(../img/see.png);
     /* Set a specific height */
     min-height: 100vh;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left:10%;
+    padding-left: 10%;
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
@@ -290,7 +297,7 @@ article.eighthArticle {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:#000;
+    background-color: #000;
     /* Set a specific height */
     min-height: 130vh;
     /* Create the parallax scrolling effect */
@@ -298,10 +305,10 @@ article.eighthArticle {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left:10%;
+    padding-left: 10%;
 }
 
-body > main > article.eighthArticle > div >p {
+body>main>article.eighthArticle>div>p {
     color: #fff;
     font-family: santio;
     font-size: 5.2rem;
@@ -309,21 +316,20 @@ body > main > article.eighthArticle > div >p {
     width: 66%;
 }
 
-body > main > article.eighthArticle > div{
-display: flex;
-flex-direction: column;
+body>main>article.eighthArticle>div {
+    display: flex;
+    flex-direction: column;
 }
 
-body > footer > p{
+body>footer>p {
     color: #fff;
     background-color: #000;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding-top: 8vh;
     padding-bottom: 1vh;
 }
 
-.donationAnchor{
+.donationAnchor {
     color: #fff;
     width: 115px;
     height: 34px;
@@ -332,9 +338,9 @@ body > footer > p{
     text-decoration: none;
     margin-top: 8vh;
     padding-top: 0.8vh;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
-
-
-
+.spanRoma {
+    color: #6bc1a3;
+}

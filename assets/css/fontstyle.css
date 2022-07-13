@@ -2,16 +2,19 @@
     font-family: "santio";
     src: url("../fonts/SANTIO/OTP/Santio\ regular.otf");
 }
+
 @font-face {
     font-family: "santio";
     src: url("../fonts/SANTIO/OTP/Santio\ Bold.otf");
     font-weight: bold;
 }
+
 @font-face {
     font-family: "santio";
     src: url("../fonts/SANTIO/OTP/Santio\ Black.otf");
     font-style: black;
 }
+
 @font-face {
     font-family: "santio";
     src: url("../fonts/SANTIO/OTP/Santio\ Boldline.otf");
@@ -34,16 +37,19 @@
     font-family: "santio";
     src: url("../fonts/SANTIO/TTF/Santio\ regular.ttf");
 }
+
 @font-face {
     font-family: "santio";
     src: url("../fonts/SANTIO/TTF/Santio\ Bold.ttf");
     font-weight: bold;
 }
+
 @font-face {
     font-family: "santio";
     src: url("../fonts/SANTIO/TTF/Santio\ Black.ttf");
     font-style: black;
 }
+
 @font-face {
     font-family: "santio";
     src: url("../fonts/SANTIO/TTF/Santio\ Boldline.ttf");
@@ -74,5 +80,5 @@
 
 @font-face {
     font-family: "tangerine";
-    src: url("../fonts/tangerine/Tangerine_Bold.ttf");    
+    src: url("../fonts/tangerine/Tangerine_Bold.ttf");
 }
